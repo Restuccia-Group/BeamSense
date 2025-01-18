@@ -31,7 +31,7 @@ and
 
 ```
 
-## Download SiMWiSense Dataset
+## Download Dataset
 
 (I) clone the repository with ``` git clone git@github.com:kfoysalhaque/BeamSense.git ```  <br/>
 (II) ```cd BeamSense``` <br/>
