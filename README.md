@@ -44,11 +44,11 @@ and
 
 ## Extract CSI from Raw pcap Files
 
-(I) Firstly, move into the directory _CSI_Extraction_ with ``` cd CSI_Extraction ```
+(I) First, move into the directory _CSI_Extraction_ with ``` cd CSI_Extraction ```
 (II) Execute the matlab script _Extract_CSI.m_ with  ``` matlab -nojvm -nosplash -r "Extract_CSI; exit" ```
 (III) Now split the extracted CSI to samples ( with a time window of 0.1s ) by executing _CSI_to_batches.m_ script with ``` matlab -nojvm -nosplash -r "CSI_to_batches; exit" ```
 
-**You can go with a different time window size also. But remmember to keep it same for BFI as well**
+**You can go with a different time window size also. But remember to keep it the same for BFI as well**
 
 
 ## Extract BFI from Raw pcap Files
@@ -60,7 +60,7 @@ and
 BeamSense/Data/BFI/Processed/<'Environment'>/<'STA'>/FeedBack_Pcap
 ```
 <br/>
-Now, export the wireshark packet Dissections as CSV (needed for time windowing). You can also use tshark with shell.
+Now, export the Wireshark packet Dissections as CSV (needed for time windowing). You can also use Tshark with shell.
 (III) Next, move into the directory _BFI_Extraction_ with ``` cd BeamSense/BFI_Extraction/ ```
 (IV) Execute the matlab script _pcap_to_bfa.m_ with  ``` matlab -nojvm -nosplash -r "pcap_to_bfa; exit" ``` to extract the beamforming feedback angles (BFAs)
 
